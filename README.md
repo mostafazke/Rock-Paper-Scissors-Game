@@ -1,2 +1,2 @@
 # Rock Paper Scissors Game 
-## Small Game In Javascript
+## Sample Rock Paper Scissors Game In Javascript
