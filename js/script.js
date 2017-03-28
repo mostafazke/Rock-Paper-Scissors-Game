@@ -56,7 +56,7 @@ function choose(choise1, choise2) {
 }
 select.addEventListener("change", function () {
     "use strict";
-    result.innerHtml = '&emsp;';
+    result.textContent = '\u00A0';
     if (select.selectedIndex === 0) {
         player1.src = 'img/rock.png';
     }
@@ -77,7 +77,7 @@ button.addEventListener('click', function () {
         clearInterval(int);
         result.style.color = '#f1c40f';
     }, 2000);
-    result.innerHtml = '&emsp;';
+    result.textContent = '\u00A0';
     result.style.color = '#fff';
 });
 window.addEventListener('keydown', function (e) {
@@ -94,8 +94,8 @@ window.addEventListener('keydown', function (e) {
         clearInterval(int);
         result.style.color = '#f1c40f';
     }, 2000);
-    result.innerHtml = '&emsp;';
-    result.style.color = '#fff';
+        result.textContent = '\u00A0';
+        result.style.color = '#fff';
     }
         
 });
